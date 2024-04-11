@@ -424,7 +424,7 @@ var (
 					reportProblemsToJiraComponent("Monitoring").
 					contactPerson("slashpai").
 					productScope(ocpSpecific).
-					enableIn(TechPreviewNoUpgrade).
+					enableIn(Default, TechPreviewNoUpgrade).
 					mustRegister()
 
 	FeatureGateInstallAlternateInfrastructureAWS = newFeatureGate("InstallAlternateInfrastructureAWS").
